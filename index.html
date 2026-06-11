@@ -1103,7 +1103,7 @@ button,a,[onclick]{cursor:pointer}
               <!-- Oranje: eerst vrijwilliger dan verzorgende -->
               <div class="al amber"><div class="al-icon"><i class="ti ti-clock-pause"></i></div><div class="al-body"><div class="al-name" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Dhr. De Vries &mdash; K18 <span class="opvlgr opvlgr-va"><i class="ti ti-user-check"></i>Verzorgende aanbevolen</span></div><div class="al-desc">Ochtendroutine niet gestart. Vrijwilliger kan eerste contact maken; bij geen reactie: verzorgende.</div><div class="al-time"><i class="ti ti-clock" style="font-size:11px;vertical-align:-1px"></i> Vandaag 08:15</div></div><div class="al-actions"><button class="btn sm primary" onclick="showPage('profiel')">Bekijk</button><button class="btn sm">Afhandelen</button></div></div>
               <!-- Blauw: vrijwilliger / familie -->
-              <div class="al teal"><div class="al-icon"><i class="ti ti-droplet"></i></div><div class="al-body"><div class="al-name" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Mevr. Jansen &mdash; K12 <span class="opvlgr opvlgr-vw"><i class="ti ti-heart-handshake"></i>Vrijwilliger / familie</span></div><div class="al-desc">Minder drinkmomenten dan normaal gemeten. Eerste keer vandaag.</div><div class="al-time"><i class="ti ti-clock" style="font-size:11px;vertical-align:-1px"></i> Vandaag 11:00</div></div><div class="al-actions"><button class="btn sm primary" onclick="showPage('profiel')">Bekijk</button><button class="btn sm">Afhandelen</button></div></div>
+              <div class="al teal"><div class="al-icon"><i class="ti ti-door"></i></div><div class="al-body"><div class="al-name" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Mevr. Jansen &mdash; K12 <span class="opvlgr opvlgr-vw"><i class="ti ti-heart-handshake"></i>Vrijwilliger / familie</span></div><div class="al-desc">Keukengebied minder actief dan normaal gemeten. Kastdeursensor keuken 1× geactiveerd vandaag.</div><div class="al-time"><i class="ti ti-clock" style="font-size:11px;vertical-align:-1px"></i> Vandaag 11:00</div></div><div class="al-actions"><button class="btn sm primary" onclick="showPage('profiel')">Bekijk</button><button class="btn sm">Afhandelen</button></div></div>
             </div>
           </div>
 
@@ -1123,10 +1123,10 @@ button,a,[onclick]{cursor:pointer}
                 <!-- Kaart 1: achterste — Mevr. Jansen (vrijwilliger) -->
                 <div class="dc-card dc-teal">
                   <div class="dc-row">
-                    <span class="dc-icon-wrap"><i class="ti ti-droplet"></i></span>
+                    <span class="dc-icon-wrap"><i class="ti ti-door"></i></span>
                     <span class="dc-title">Mevr. Jansen</span>
                   </div>
-                  <p class="dc-desc">Minder drinkmomenten dan normaal</p>
+                  <p class="dc-desc">Keukengebied minder actief dan normaal</p>
                   <p class="dc-meta">Kamer 12 &middot; Vandaag 11:00 &middot; Vrijwilliger / familie</p>
                 </div>
 
@@ -1250,10 +1250,10 @@ button,a,[onclick]{cursor:pointer}
             <!-- Melding 3: Mevr. Jansen — blauw/teal — vrijwilliger -->
             <div class="al teal" style="flex-direction:column;gap:0;padding:0">
               <div style="display:flex;align-items:flex-start;gap:13px;padding:15px 22px">
-                <div class="al-icon"><i class="ti ti-droplet"></i></div>
+                <div class="al-icon"><i class="ti ti-door"></i></div>
                 <div class="al-body">
                   <div class="al-name" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">Mevr. Jansen &mdash; Kamer 12 <span class="opvlgr opvlgr-vw"><i class="ti ti-heart-handshake"></i>Vrijwilliger / familie</span></div>
-                  <div class="al-desc">Minder drinkmomenten dan normaal gemeten. Eerste keer vandaag.</div>
+                  <div class="al-desc">Keukengebied minder actief dan normaal gemeten. Kastdeursensor keuken 1× geactiveerd vandaag.</div>
                   <div class="al-time">Vandaag 11:00 &middot; Lage prioriteit</div>
                 </div>
                 <div class="al-actions"><button class="btn sm primary" onclick="showPage('profiel')">Beoordelen</button><button class="btn sm">Afhandelen</button></div>
@@ -1341,7 +1341,7 @@ button,a,[onclick]{cursor:pointer}
               <span class="pill warn"><span class="pill-dot"></span>Let op</span>
               <span class="opvlgr opvlgr-vw"><i class="ti ti-heart-handshake"></i>Vrijwilliger / familie</span>
             </div>
-            <div class="res-sr"><div><div class="rs-val" style="color:var(--amber)">3</div><div class="rs-lbl">drinkmom.</div></div><div><div class="rs-val">7.3u</div><div class="rs-lbl">in bed</div></div><div><div class="rs-val">72%</div><div class="rs-lbl">sensoractiviteit</div></div></div>
+            <div class="res-sr"><div><div class="rs-val" style="color:var(--amber)">1×</div><div class="rs-lbl">kastdeur keuken</div></div><div><div class="rs-val">7.3u</div><div class="rs-lbl">in bed</div></div><div><div class="rs-val">72%</div><div class="rs-lbl">sensoractiviteit</div></div></div>
           </div>
           <!-- Stabiele bewoners -->
           <div class="res-card" onclick="showPage('profiel','smit')"><div class="res-top"><div class="res-av" style="background:var(--teal)">HS</div><div><div class="res-name">Dhr. Henk Smit</div><div class="res-room">Kamer 1 &middot; 81 jaar</div></div></div><span class="pill ok"><span class="pill-dot"></span>Stabiel</span><div class="res-sr"><div><div class="rs-val">7.5u</div><div class="rs-lbl">in bed</div></div><div><div class="rs-val" style="color:#166534">0&times;</div><div class="rs-lbl">bed verlaten</div></div><div><div class="rs-val" style="color:#166534">88%</div><div class="rs-lbl">sensoractiviteit</div></div></div></div>
@@ -1718,13 +1718,13 @@ const bewoners=[
     status:'warn',statuslbl:'Let op',
     opvlgr:'vw',opvlgrlbl:'Vrijwilliger / familie',
     opvlgr_icon:'ti-heart-handshake',opvlgr_kleur:'vw',
-    melding:'Minder drinkmomenten dan normaal gemeten. Eerste keer vandaag.',
+    melding:'Keukengebied minder actief dan normaal gemeten. Kastdeursensor keuken niet geactiveerd in afgelopen 3 uur.',
     meldingtijd:'Vandaag 11:00',
-    stat1:{icon:'ti-droplet',bg:'#eff6ff',cl:'#1d4ed8',val:'3',lbl:'Drinkmomenten',trend:'trend-dn',tnorm:'Normaal: 6–8'},
+    stat1:{icon:'ti-door',bg:'#eff6ff',cl:'#1d4ed8',val:'1×',lbl:'Kastdeur keuken vandaag',trend:'trend-dn',tnorm:'Normaal: 4–6×'},
     stat2:{icon:'ti-bed',bg:'#e8f5f3',cl:'var(--teal)',val:'7.3u',lbl:'Tijd in bed',trend:'trend-neu',tnorm:'Normaal: 7–8.5u'},
     stat3:{icon:'ti-activity',bg:'#e8f5f3',cl:'var(--teal)',val:'72%',lbl:'Sensoractiviteit',trend:'trend-neu',tnorm:'Normaal: 65–80%'},
     tijdlijn:[
-      {tijd:'11:00',kleur:'var(--amber)',ttl:'Minder drinkmomenten gemeten',desc:'Eerste keer vandaag · Melding aangemaakt'},
+      {tijd:'11:00',kleur:'var(--amber)',ttl:'Keukengebied minder actief dan normaal',desc:'Kastdeursensor keuken 1× geactiveerd · Melding aangemaakt'},
       {tijd:'09:15',kleur:'var(--teal)',ttl:'Activiteit keuken',desc:'Binnen normaal patroon'},
       {tijd:'07:28',kleur:'var(--teal)',ttl:'Bed verlaten, kledingkast geopend',desc:'Op normaal tijdstip'}
     ],
@@ -1974,7 +1974,7 @@ const stemData = {
     herinneringen: [
       { tijd: '07:28', stem: 'Verzorgende Marjan – vaste verzorgende', tekst: 'Goedemorgen mevrouw Jansen, tijd om op te staan. Uw kleren liggen klaar op de stoel.', aanleiding: 'Bedsensor: beweging gemeten, kledingkast nog niet geopend na 5 minuten' },
       { tijd: '08:02', stem: 'Verzorgende Marjan – vaste verzorgende', tekst: 'Vergeet niet uw tanden te poetsen. Het tandenborsteltje staat klaar bij de wasbak.', aanleiding: 'Kledingkast geopend, badkamersensor nog niet actief na 10 minuten' },
-      { tijd: '11:05', stem: 'Zus Anne – zus', tekst: 'Hallo lieverd, wil je misschien iets drinken? Er staat iets lekkers voor je klaar in de keuken.', aanleiding: 'Minder drinkmomenten gemeten dan normaal' }
+      { tijd: '11:05', stem: 'Verzorgende Marjan – vaste verzorgende', tekst: 'Goedemorgen mevrouw Jansen, ik wilde even vragen hoe het gaat. Er staat iets lekkers klaar in de keuken als u zin heeft.', aanleiding: 'Keukengebied minder actief dan normaal gemeten — kastdeursensor keuken niet geactiveerd in afgelopen 3 uur' }
     ]
   },
   devries: {
